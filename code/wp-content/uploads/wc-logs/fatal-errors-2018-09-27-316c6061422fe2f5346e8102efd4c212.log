@@ -1,0 +1,373 @@
+2018-09-27T07:36:01+00:00 CRITICAL Uncaught Error: Class 'Inc\Base\Deactivate' not found in /code/wp-content/plugins/alecaddd-plugin/alecaddd-plugin.php:54
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(286): deactivate_alecaddd_plugin(false)
+#1 /code/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /code/wp-admin/includes/plugin.php(699): do_action('deactivate_alec...', false)
+#4 /code/wp-admin/plugins.php(195): deactivate_plugins('alecaddd-plugin...', false, false)
+#5 {main}
+  thrown
+
+2018-09-27T07:36:11+00:00 CRITICAL Uncaught Error: Class 'Inc\Base\Deactivate' not found in /code/wp-content/plugins/alecaddd-plugin/alecaddd-plugin.php:54
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(286): deactivate_alecaddd_plugin(false)
+#1 /code/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /code/wp-admin/includes/plugin.php(699): do_action('deactivate_alec...', false)
+#4 /code/wp-admin/plugins.php(195): deactivate_plugins('alecaddd-plugin...', false, false)
+#5 {main}
+  thrown
+
+2018-09-27T07:36:57+00:00 CRITICAL Uncaught Error: Class 'Inc\Base\Deactivate' not found in /code/wp-content/plugins/alecaddd-plugin/alecaddd-plugin.php:54
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(286): deactivate_alecaddd_plugin(false)
+#1 /code/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /code/wp-admin/includes/plugin.php(699): do_action('deactivate_alec...', false)
+#4 /code/wp-admin/plugins.php(195): deactivate_plugins('alecaddd-plugin...', false, false)
+#5 {main}
+  thrown
+
+2018-09-27T07:41:04+00:00 CRITICAL Uncaught Error: Class 'Inc\Base\Activate' not found in /code/wp-content/plugins/alecaddd-plugin/alecaddd-plugin.php:46
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(286): activate_alecaddd_plugin(false)
+#1 /code/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /code/wp-admin/includes/plugin.php(586): do_action('activate_alecad...', false)
+#4 /code/wp-admin/plugins.php(43): activate_plugin('alecaddd-plugin...', 'http://localhos...', false)
+#5 {main}
+  thrown
+
+2018-09-27T07:41:09+00:00 CRITICAL Uncaught Error: Class 'Inc\Base\Activate' not found in /code/wp-content/plugins/alecaddd-plugin/alecaddd-plugin.php:46
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(286): activate_alecaddd_plugin('')
+#1 /code/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /code/wp-admin/plugins.php(180): do_action('activate_alecad...')
+#4 {main}
+  thrown
+
+2018-09-27T07:42:00+00:00 CRITICAL Uncaught Error: Class 'Inc\Base\Activate' not found in /code/wp-content/plugins/alecaddd-plugin/alecaddd-plugin.php:46
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(286): activate_alecaddd_plugin(false)
+#1 /code/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /code/wp-admin/includes/plugin.php(586): do_action('activate_alecad...', false)
+#4 /code/wp-admin/plugins.php(43): activate_plugin('alecaddd-plugin...', 'http://localhos...', false)
+#5 {main}
+  thrown
+
+2018-09-27T07:42:05+00:00 CRITICAL Uncaught Error: Class 'Inc\Base\Activate' not found in /code/wp-content/plugins/alecaddd-plugin/alecaddd-plugin.php:46
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(286): activate_alecaddd_plugin('')
+#1 /code/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /code/wp-admin/plugins.php(180): do_action('activate_alecad...')
+#4 {main}
+  thrown
+
+2018-09-27T07:59:06+00:00 CRITICAL Uncaught Error: Class 'Inc\Base\Activate' not found in /code/wp-content/plugins/alecaddd-plugin/alecaddd-plugin.php:46
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(286): activate_alecaddd_plugin(false)
+#1 /code/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /code/wp-admin/includes/plugin.php(586): do_action('activate_alecad...', false)
+#4 /code/wp-admin/plugins.php(43): activate_plugin('alecaddd-plugin...', 'http://localhos...', false)
+#5 {main}
+  thrown
+
+2018-09-27T07:59:11+00:00 CRITICAL Uncaught Error: Class 'Inc\Base\Activate' not found in /code/wp-content/plugins/alecaddd-plugin/alecaddd-plugin.php:46
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(286): activate_alecaddd_plugin('')
+#1 /code/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /code/wp-admin/plugins.php(180): do_action('activate_alecad...')
+#4 {main}
+  thrown
+
+2018-09-27T08:03:14+00:00 CRITICAL Uncaught Error: Class 'Inc\Base\Activate' not found in /code/wp-content/plugins/alecaddd-plugin/alecaddd-plugin.php:46
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(286): activate_alecaddd_plugin(false)
+#1 /code/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /code/wp-admin/includes/plugin.php(586): do_action('activate_alecad...', false)
+#4 /code/wp-admin/plugins.php(43): activate_plugin('alecaddd-plugin...', 'http://localhos...', false)
+#5 {main}
+  thrown
+
+2018-09-27T08:03:19+00:00 CRITICAL Uncaught Error: Class 'Inc\Base\Activate' not found in /code/wp-content/plugins/alecaddd-plugin/alecaddd-plugin.php:46
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(286): activate_alecaddd_plugin('')
+#1 /code/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /code/wp-admin/plugins.php(180): do_action('activate_alecad...')
+#4 {main}
+  thrown
+
+2018-09-27T08:04:59+00:00 CRITICAL Uncaught Error: Class 'Inc\Base\Activate' not found in /code/wp-content/plugins/alecaddd-plugin/alecaddd-plugin.php:46
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(286): activate_alecaddd_plugin(false)
+#1 /code/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /code/wp-admin/includes/plugin.php(586): do_action('activate_alecad...', false)
+#4 /code/wp-admin/plugins.php(43): activate_plugin('alecaddd-plugin...', 'http://localhos...', false)
+#5 {main}
+  thrown
+
+2018-09-27T08:05:04+00:00 CRITICAL Uncaught Error: Class 'Inc\Base\Activate' not found in /code/wp-content/plugins/alecaddd-plugin/alecaddd-plugin.php:46
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(286): activate_alecaddd_plugin('')
+#1 /code/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /code/wp-admin/plugins.php(180): do_action('activate_alecad...')
+#4 {main}
+  thrown
+
+2018-09-27T08:10:03+00:00 CRITICAL Uncaught Error: Class 'Inc\Base\Activate' not found in /code/wp-content/plugins/alecaddd-plugin/alecaddd-plugin.php:46
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(286): activate_alecaddd_plugin(false)
+#1 /code/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /code/wp-admin/includes/plugin.php(586): do_action('activate_alecad...', false)
+#4 /code/wp-admin/plugins.php(43): activate_plugin('alecaddd-plugin...', 'http://localhos...', false)
+#5 {main}
+  thrown
+
+2018-09-27T08:10:07+00:00 CRITICAL Uncaught Error: Class 'Inc\Base\Activate' not found in /code/wp-content/plugins/alecaddd-plugin/alecaddd-plugin.php:46
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(286): activate_alecaddd_plugin('')
+#1 /code/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /code/wp-admin/plugins.php(180): do_action('activate_alecad...')
+#4 {main}
+  thrown
+
+2018-09-27T19:57:22+00:00 CRITICAL Uncaught Error: Class 'Inc\Base\Deactivate' not found in /code/wp-content/plugins/alecaddd-plugin/alecaddd-plugin.php:54
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(286): deactivate_alecaddd_plugin(false)
+#1 /code/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /code/wp-admin/includes/plugin.php(699): do_action('deactivate_alec...', false)
+#4 /code/wp-admin/plugins.php(195): deactivate_plugins('alecaddd-plugin...', false, false)
+#5 {main}
+  thrown
+
+2018-09-27T19:58:21+00:00 CRITICAL Uncaught Error: Class 'Inc\Base\Deactivate' not found in /code/wp-content/plugins/alecaddd-plugin/alecaddd-plugin.php:54
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(286): deactivate_alecaddd_plugin(false)
+#1 /code/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /code/wp-admin/includes/plugin.php(699): do_action('deactivate_alec...', false)
+#4 /code/wp-admin/plugins.php(195): deactivate_plugins('alecaddd-plugin...', false, false)
+#5 {main}
+  thrown
+
+2018-09-27T19:59:50+00:00 CRITICAL Uncaught Error: Class 'Inc\Base\Activate' not found in /code/wp-content/plugins/alecaddd-plugin/alecaddd-plugin.php:46
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(286): activate_alecaddd_plugin(false)
+#1 /code/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /code/wp-admin/includes/plugin.php(586): do_action('activate_alecad...', false)
+#4 /code/wp-admin/plugins.php(43): activate_plugin('alecaddd-plugin...', 'http://localhos...', false)
+#5 {main}
+  thrown
+
+2018-09-27T19:59:55+00:00 CRITICAL Uncaught Error: Class 'Inc\Base\Activate' not found in /code/wp-content/plugins/alecaddd-plugin/alecaddd-plugin.php:46
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(286): activate_alecaddd_plugin('')
+#1 /code/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /code/wp-admin/plugins.php(180): do_action('activate_alecad...')
+#4 {main}
+  thrown
+
+2018-09-27T20:00:02+00:00 CRITICAL Uncaught Error: Class 'Inc\Base\Activate' not found in /code/wp-content/plugins/alecaddd-plugin/alecaddd-plugin.php:46
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(286): activate_alecaddd_plugin(false)
+#1 /code/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /code/wp-admin/includes/plugin.php(586): do_action('activate_alecad...', false)
+#4 /code/wp-admin/plugins.php(43): activate_plugin('alecaddd-plugin...', 'http://localhos...', false)
+#5 {main}
+  thrown
+
+2018-09-27T20:00:07+00:00 CRITICAL Uncaught Error: Class 'Inc\Base\Activate' not found in /code/wp-content/plugins/alecaddd-plugin/alecaddd-plugin.php:46
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(286): activate_alecaddd_plugin('')
+#1 /code/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /code/wp-admin/plugins.php(180): do_action('activate_alecad...')
+#4 {main}
+  thrown
+
+2018-09-27T20:02:30+00:00 CRITICAL Uncaught Error: Class 'Inc\Base\Activate' not found in /code/wp-content/plugins/alecaddd-plugin/alecaddd-plugin.php:46
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(286): activate_alecaddd_plugin(false)
+#1 /code/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /code/wp-admin/includes/plugin.php(586): do_action('activate_alecad...', false)
+#4 /code/wp-admin/plugins.php(43): activate_plugin('alecaddd-plugin...', 'http://localhos...', false)
+#5 {main}
+  thrown
+
+2018-09-27T20:02:34+00:00 CRITICAL Uncaught Error: Class 'Inc\Base\Activate' not found in /code/wp-content/plugins/alecaddd-plugin/alecaddd-plugin.php:46
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(286): activate_alecaddd_plugin('')
+#1 /code/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /code/wp-admin/plugins.php(180): do_action('activate_alecad...')
+#4 {main}
+  thrown
+
+2018-09-27T20:02:58+00:00 CRITICAL Uncaught Error: Class 'Inc\Base\Activate' not found in /code/wp-content/plugins/alecaddd-plugin/alecaddd-plugin.php:46
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(286): activate_alecaddd_plugin(false)
+#1 /code/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /code/wp-admin/includes/plugin.php(586): do_action('activate_alecad...', false)
+#4 /code/wp-admin/plugins.php(43): activate_plugin('alecaddd-plugin...', 'http://localhos...', false)
+#5 {main}
+  thrown
+
+2018-09-27T20:03:03+00:00 CRITICAL Uncaught Error: Class 'Inc\Base\Activate' not found in /code/wp-content/plugins/alecaddd-plugin/alecaddd-plugin.php:46
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(286): activate_alecaddd_plugin('')
+#1 /code/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /code/wp-admin/plugins.php(180): do_action('activate_alecad...')
+#4 {main}
+  thrown
+
+2018-09-27T20:07:29+00:00 CRITICAL Uncaught Error: Class 'Inc\Base\Activate' not found in /code/wp-content/plugins/alecaddd-plugin/alecaddd-plugin.php:46
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(286): activate_alecaddd_plugin(false)
+#1 /code/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /code/wp-admin/includes/plugin.php(586): do_action('activate_alecad...', false)
+#4 /code/wp-admin/plugins.php(43): activate_plugin('alecaddd-plugin...', 'http://localhos...', false)
+#5 {main}
+  thrown
+
+2018-09-27T20:07:35+00:00 CRITICAL Uncaught Error: Class 'Inc\Base\Activate' not found in /code/wp-content/plugins/alecaddd-plugin/alecaddd-plugin.php:46
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(286): activate_alecaddd_plugin('')
+#1 /code/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /code/wp-admin/plugins.php(180): do_action('activate_alecad...')
+#4 {main}
+  thrown
+
+2018-09-27T20:12:02+00:00 CRITICAL Uncaught Error: Class 'Inc\Base\Activate' not found in /code/wp-content/plugins/alecaddd-plugin/alecaddd-plugin.php:46
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(286): activate_alecaddd_plugin(false)
+#1 /code/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /code/wp-admin/includes/plugin.php(586): do_action('activate_alecad...', false)
+#4 /code/wp-admin/plugins.php(43): activate_plugin('alecaddd-plugin...', 'http://localhos...', false)
+#5 {main}
+  thrown
+
+2018-09-27T20:12:07+00:00 CRITICAL Uncaught Error: Class 'Inc\Base\Activate' not found in /code/wp-content/plugins/alecaddd-plugin/alecaddd-plugin.php:46
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(286): activate_alecaddd_plugin('')
+#1 /code/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /code/wp-admin/plugins.php(180): do_action('activate_alecad...')
+#4 {main}
+  thrown
+
+2018-09-27T20:13:40+00:00 CRITICAL Uncaught Error: Class 'Inc\Base\Activate' not found in /code/wp-content/plugins/alecaddd-plugin/alecaddd-plugin.php:46
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(286): activate_alecaddd_plugin(false)
+#1 /code/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /code/wp-admin/includes/plugin.php(586): do_action('activate_alecad...', false)
+#4 /code/wp-admin/plugins.php(43): activate_plugin('alecaddd-plugin...', 'http://localhos...', false)
+#5 {main}
+  thrown
+
+2018-09-27T20:13:44+00:00 CRITICAL Uncaught Error: Class 'Inc\Base\Activate' not found in /code/wp-content/plugins/alecaddd-plugin/alecaddd-plugin.php:46
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(286): activate_alecaddd_plugin('')
+#1 /code/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /code/wp-admin/plugins.php(180): do_action('activate_alecad...')
+#4 {main}
+  thrown
+
+2018-09-27T20:14:58+00:00 CRITICAL Uncaught Error: Class 'Inc\Base\Activate' not found in /code/wp-content/plugins/alecaddd-plugin/alecaddd-plugin.php:46
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(286): activate_alecaddd_plugin(false)
+#1 /code/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /code/wp-admin/includes/plugin.php(586): do_action('activate_alecad...', false)
+#4 /code/wp-admin/plugins.php(43): activate_plugin('alecaddd-plugin...', 'http://localhos...', false)
+#5 {main}
+  thrown
+
+2018-09-27T20:15:04+00:00 CRITICAL Uncaught Error: Class 'Inc\Base\Activate' not found in /code/wp-content/plugins/alecaddd-plugin/alecaddd-plugin.php:46
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(286): activate_alecaddd_plugin('')
+#1 /code/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /code/wp-admin/plugins.php(180): do_action('activate_alecad...')
+#4 {main}
+  thrown
+
+2018-09-27T20:16:23+00:00 CRITICAL Uncaught Error: Class 'Inc\Base\Activate' not found in /code/wp-content/plugins/alecaddd-plugin/alecaddd-plugin.php:46
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(286): activate_alecaddd_plugin(false)
+#1 /code/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /code/wp-admin/includes/plugin.php(586): do_action('activate_alecad...', false)
+#4 /code/wp-admin/plugins.php(43): activate_plugin('alecaddd-plugin...', 'http://localhos...', false)
+#5 {main}
+  thrown
+
+2018-09-27T20:16:28+00:00 CRITICAL Uncaught Error: Class 'Inc\Base\Activate' not found in /code/wp-content/plugins/alecaddd-plugin/alecaddd-plugin.php:46
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(286): activate_alecaddd_plugin('')
+#1 /code/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /code/wp-admin/plugins.php(180): do_action('activate_alecad...')
+#4 {main}
+  thrown
+
+2018-09-27T20:16:33+00:00 CRITICAL Uncaught Error: Class 'Inc\Base\Activate' not found in /code/wp-content/plugins/alecaddd-plugin/alecaddd-plugin.php:46
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(286): activate_alecaddd_plugin(false)
+#1 /code/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /code/wp-admin/includes/plugin.php(586): do_action('activate_alecad...', false)
+#4 /code/wp-admin/plugins.php(43): activate_plugin('alecaddd-plugin...', 'http://localhos...', false)
+#5 {main}
+  thrown
+
+2018-09-27T20:16:38+00:00 CRITICAL Uncaught Error: Class 'Inc\Base\Activate' not found in /code/wp-content/plugins/alecaddd-plugin/alecaddd-plugin.php:46
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(286): activate_alecaddd_plugin('')
+#1 /code/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /code/wp-admin/plugins.php(180): do_action('activate_alecad...')
+#4 {main}
+  thrown
+
+2018-09-27T20:17:35+00:00 CRITICAL Uncaught Error: Class 'Inc\Base\Activate' not found in /code/wp-content/plugins/alecaddd-plugin/alecaddd-plugin.php:46
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(286): activate_alecaddd_plugin(false)
+#1 /code/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /code/wp-admin/includes/plugin.php(586): do_action('activate_alecad...', false)
+#4 /code/wp-admin/plugins.php(43): activate_plugin('alecaddd-plugin...', 'http://localhos...', false)
+#5 {main}
+  thrown
+
+2018-09-27T20:17:39+00:00 CRITICAL Uncaught Error: Class 'Inc\Base\Activate' not found in /code/wp-content/plugins/alecaddd-plugin/alecaddd-plugin.php:46
+Stack trace:
+#0 /code/wp-includes/class-wp-hook.php(286): activate_alecaddd_plugin('')
+#1 /code/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /code/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /code/wp-admin/plugins.php(180): do_action('activate_alecad...')
+#4 {main}
+  thrown
+
