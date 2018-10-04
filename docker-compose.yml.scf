@@ -1,0 +1,54 @@
+#https://gist.github.com/michaelneu/2ca7987ef00fa3fbe4fd7b9c07834cc7
+version: '3'
+services:
+  web8200:
+    image: nginx:1.14.0
+    ports:
+      - "80:80"
+      - "443:443"
+    container_name: web8200 
+    volumes:
+      - ./code:/code
+      - ./nginx/conf.d:/etc/nginx/conf.d
+      - ./nginx/ssl:/etc/nginx/ssl
+    links:
+      - php9200
+  php9200:
+    build: .
+    volumes: 
+      - ./code:/code
+    ports:
+     - "9000:9000"
+    image: php9200:7.0-fpm
+    environment:
+      XDEBUG_CONFIG: remote_host=wordpress.printverse.com
+    links:
+      - mysql5.6-3326
+      - maildev8290
+  mysql5.6-3326:
+    image: mysql:5.6
+    volumes:
+      - mysql5.6-3326:/var/lib/mysql
+    container_name: mysql5.6-3326 
+    ports:
+      - "3326:3306"
+    environment: 
+      - MYSQL_ROOT_PASSWORD=password
+  phpmyadmin8280:
+    image: phpmyadmin/phpmyadmin
+    links:
+      - mysql5.6-3326:db
+    ports:
+      - "8280:80"
+    container_name: phpmyadmin8280 
+    environment:
+      - PMA_USER=root
+      - PMA_PASSWORD=password
+      - PHP_UPLOAD_MAX_FILESIZE=100MB
+  maildev8290:
+    image: djfarrelly/maildev
+    container_name: maildev8290 
+    ports:
+     - "8290:80"
+volumes:
+  mysql5.6-3326:
