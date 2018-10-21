@@ -18,7 +18,6 @@ class TemplateController extends BaseController
 		if ( ! $this->activated( 'templates_manager' ) ) return;
 
 		$this->templates = array(
-			'page-templates/donate-products-tpl.php' => 'Donate Products',
 			'page-templates/two-columns-tpl.php' => 'Two Columns Layout'
 		);
 
