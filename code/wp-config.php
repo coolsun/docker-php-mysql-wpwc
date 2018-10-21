@@ -46,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'put your unique phrase here');
-define('SECURE_AUTH_KEY',  'put your unique phrase here');
-define('LOGGED_IN_KEY',    'put your unique phrase here');
-define('NONCE_KEY',        'put your unique phrase here');
-define('AUTH_SALT',        'put your unique phrase here');
-define('SECURE_AUTH_SALT', 'put your unique phrase here');
-define('LOGGED_IN_SALT',   'put your unique phrase here');
-define('NONCE_SALT',       'put your unique phrase here');
+define('AUTH_KEY', 'vFl&|Fr=axhoJBop/WfwMm)ZKsMu--p/_Ss?y?Nv!]DWBMIBTG?Gd<Rmq}iEn)</G)PwwA]hW?R+-^|jiqUDTob>k-ks?$SPovVd%uF{|+YKHQ+uG/MGjBRqi]TKhOh');
+define('SECURE_AUTH_KEY', '$YXiZuE}d_[aolRFaICf$sh<xPm=tCB&%uS+>sgeaH{yXZjXrxl|OYi_zZfog$Y_U-coi!i$*Bps]n]Nm>@t-Y<-W;_<YEaAA]@LIGGhJ=%qN*UhnmLI^E&/UaFh_<}');
+define('LOGGED_IN_KEY', 'ubTT+uJ}jxv!AVt/OT=R]}QPW]dB;oHBVuANvf);;Lo<cw=Yo^Ha{r!Pbwgu=]%ElVepss$uWcOe]$KV@a?;|x|b@BS=onIKBrqQ&+Wa]An$*BCOhXkmKBMLXlN)_fU');
+define('NONCE_KEY', 'pNqXSBzJ)ajJz+Y}!Xw@=vYy+!Qh=tylOs|kV|p)eyv}fhS^}/]BN]be(=|bo!__;w>V_?hjVW_O/sxi]&d)i)KpURnquEZEUUvTTLYZp+wvn{a_liY/^>oh/rCpN(j');
+define('AUTH_SALT', 'UI>!uwvW|=PlQ]JE-^ou}/jqMB$><t]B<e<Z><fb}ddH+;iZ_Uzm;T)TV/KbIMPRt]rhwcvwZfaszzGiBaI[!l|JskrUYUBx]V><T$WtZi)M?^Grz^!eHJl%Ws+|X+z');
+define('SECURE_AUTH_SALT', 'NT/w;NNqi?Fb_!+Mnnm*BNtvpI{$ukUbnMmUXso=%gBFMzs{w(kPgPOrCI[ILOuHXSx}Hpoo(lYnp{K/zcYt[H&Z_nc@Hck)}kOOa-!vN*LQ^|)wfG]HQ?ARCtO{K[D');
+define('LOGGED_IN_SALT', '^RDpWzmK?[GA_BzPX^yxG]DG[yoYtUx&bk_xbR-dkhZUJKUK[;Yj(*i_/OrrZk]ljZ?-?dP>w<qv<=*VT@I;FG>&!luF$bUrSZpP;mr(+rZk]AhyKvObl}HnC;*UTyC');
+define('NONCE_SALT', 'P/k$o]_tD=!UTr^z=cSSGG|utx%%]EfqplCJ+HtbVu]uB$Bd;MXfFMgOhkTTit=lfdi[sy@r[iv$ANhYZNZc)e=OuRYKIeEeGYViAyrTn([zmIKwjdYPY^Ma!{ZCF]$');
 
 /**#@-*/
 
