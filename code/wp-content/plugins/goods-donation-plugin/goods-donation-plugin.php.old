@@ -1,0 +1,160 @@
+<?php
+/**
+ * @package  GoodsDonationPlugin
+ */
+/*
+Plugin Name: Goods Donation Plugin
+Plugin URI: http://alecaddd.com/plugin
+Description: This is my first attempt on writing a custom Plugin for this amazing tutorial series.
+Version: 1.0.0
+Author: Alessandro "Alecaddd" Castellani
+Author URI: http://alecaddd.com
+License: GPLv2 or later
+Text Domain: alecaddd-plugin
+*/
+
+/*
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+Copyright 2005-2015 Automattic, Inc.
+*/
+
+defined( 'ABSPATH' ) or die( 'Hey, what are you doing here? You silly human!' );
+
+class GoodsDonationPlugin
+{
+	function __construct() {
+	}
+
+	function activate() {
+
+		// flush rewrite rules
+		add_action( 'init', array($this, 'my_custom_endpoints') );
+		add_filter( 'query_vars', array($this, 'my_custom_query_vars'), 0 );
+		add_filter( 'woocommerce_account_menu_items', array($this, 'my_custom_my_account_menu_items'));
+		add_action( 'woocommerce_account_my-custom-endpoint_endpoint', array($this, 'my_custom_endpoint_content'));
+		add_filter( 'the_title', array($this, 'my_custom_endpoint_title'));
+		
+		flush_rewrite_rules();
+	}
+
+	function deactivate() {
+
+		remove_action( 'init', array($this, 'my_custom_endpoints') );
+		remove_filter( 'query_vars', array($this, 'my_custom_query_vars'));
+		remove_filter( 'woocommerce_account_menu_items', array($this, 'my_custom_my_account_menu_items'));
+		remove_action( 'woocommerce_account_my-custom-endpoint_endpoint', array($this, 'my_custom_endpoint_content'));
+		remove_filter( 'the_title', array($this, 'my_custom_endpoint_title'));
+
+		flush_rewrite_rules();
+	}
+
+	function uninstall() {
+		// delete CPT
+		// delete all the plugin data from the DB
+	}
+
+	function my_custom_endpoints() {
+		add_rewrite_endpoint( 'my-custom-endpoint', EP_ROOT | EP_PAGES );
+	}
+
+	/**
+	 * Add new query var.
+	 *
+	 * @param array $vars
+	 * @return array
+	 */
+	function my_custom_query_vars( $vars ) {
+		$vars[] = 'my-custom-endpoint';
+
+		return $vars;
+	}
+	/**
+	 * Custom help to add new items into an array after a selected item.
+	 *
+	 * @param array $items
+	 * @param array $new_items
+	 * @param string $after
+	 * @return array
+	 */
+	function my_custom_insert_after_helper( $items, $new_items, $after ) {
+	        // Search for the item position and +1 since is after the selected item key.
+	        $position = array_search( $after, array_keys( $items ) ) + 1;
+	
+	        // Insert the new item.
+	        $array = array_slice( $items, 0, $position, true );
+	        $array += $new_items;
+	        $array += array_slice( $items, $position, count( $items ) - $position, true );
+	
+	    return $array;
+	}
+	
+	/**
+	 * Insert the new endpoint into the My Account menu.
+	 *
+	 * @param array $items
+	 * @return array
+	 */
+	function my_custom_my_account_menu_items( $items ) {
+	        $new_items = array();
+	        $new_items['my-custom-endpoint'] = __( 'Donations', 'woocommerce' );
+	
+	        // Add the new item after `orders`.
+	        return my_custom_insert_after_helper( $items, $new_items, 'orders' );
+	}
+	
+	/**
+	 * Endpoint HTML content.
+	 */
+	function my_custom_endpoint_content() {
+	        echo '<p>Donations</p>';
+	}
+	
+	/*
+	 * Change endpoint title.
+	 *
+	 * @param string $title
+	 * @return string
+	 */
+	function my_custom_endpoint_title( $title ) {
+	        global $wp_query;
+	
+	        $is_endpoint = isset( $wp_query->query_vars['my-custom-endpoint'] );
+	
+	        if ( $is_endpoint && ! is_admin() && is_main_query() && in_the_loop() && is_account_page() ) {
+	                // New page title.
+	                $title = __( 'Donations', 'woocommerce' );
+	
+	                remove_filter( 'the_title', array($this, 'my_custom_endpoint_title') );
+	        }
+	
+	        return $title;
+	}
+
+
+	
+}
+
+if ( class_exists( 'GoodsDonationPlugin' ) ) {
+	$goodsDonationPlugin = new GoodsDonationPlugin();
+}
+
+// activation
+register_activation_hook( __FILE__, array( $goodsDonationPlugin, 'activate' ) );
+
+// deactivation
+register_deactivation_hook( __FILE__, array( $goodsDonationPlugin, 'deactivate' ) );
+
+// uninstall
